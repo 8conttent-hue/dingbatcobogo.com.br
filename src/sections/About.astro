@@ -1,0 +1,60 @@
+---
+// About-D: Quote & Video Focus - Foco em autoridade e depoimento
+interface Stat { value: string; label: string; }
+interface Props {
+  title: string;
+  desc: string;
+  image: string;
+  btnText: string;
+  btnLink: string;
+  stats: Stat[];
+}
+const { title, desc, image, btnText, btnLink, stats } = Astro.props;
+---
+<section class="py-24 bg-white relative overflow-hidden">
+  <div class="max-w-6xl mx-auto px-4 relative z-10">
+    <div class="grid lg:grid-cols-12 gap-16 items-center">
+      <!-- Texto e Citação -->
+      <div class="lg:col-span-7">
+        <h2 class="text-4xl lg:text-5xl font-black text-dark mb-10 tracking-tight leading-[1.1]">
+          {title}
+        </h2>
+        
+        <div class="relative bg-gray-50 rounded-3xl p-8 md:p-12 border-l-8 border-primary mb-10 group">
+          <svg class="absolute top-6 right-8 w-16 h-16 text-primary/10 transition-transform group-hover:scale-125" fill="currentColor" viewBox="0 0 32 32"><path d="M10 8v8h6v-8h-6zm12 8h6v-8h-6v8zm-12 0c0 4.418-3.582 8-8 8v-4c2.209 0 4-1.791 4-4h4zm12 0c0 4.418-3.582 8-8 8v-4c2.209 0 4-1.791 4-4h4z"/></svg>
+          <p class="text-xl md:text-2xl text-dark leading-relaxed font-medium italic relative z-10">
+            "{desc.split('.')[0]}."
+          </p>
+          <div class="mt-8 flex items-center gap-4">
+            <div class="h-px w-12 bg-primary"></div>
+            <span class="text-sm font-black uppercase tracking-widest text-dark">Especialista em Cuidado Humanizado</span>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-4">
+          <a href={btnLink} class="px-8 py-4 bg-dark text-white font-black rounded-xl hover:bg-primary transition-all shadow-xl shadow-dark/20 uppercase tracking-widest text-xs">
+            {btnText}
+          </a>
+        </div>
+      </div>
+
+      <!-- Video Placeholder / Featured Image -->
+      <div class="lg:col-span-5 relative">
+        <div class="aspect-[9/16] max-w-[300px] mx-auto bg-dark rounded-[3rem] border-8 border-gray-100 shadow-2xl relative overflow-hidden group">
+          <img src={image} class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 hover:scale-110" alt="Video Frame" />
+          <div class="absolute inset-0 bg-gradient-to-t from-dark/60 via-transparent to-transparent"></div>
+          <!-- Play Button Overlay -->
+          <div class="absolute inset-0 flex items-center justify-center">
+            <button class="w-16 h-16 bg-primary/90 text-white rounded-full flex items-center justify-center hover:scale-110 transition-transform shadow-2xl">
+              <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+        </div>
+        <!-- Decorative text background -->
+        <div class="absolute -z-10 -bottom-10 -right-10 text-8xl font-black text-gray-50 uppercase tracking-tighter leading-none select-none">
+          STORY<br/>TELLING
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Sobre Nós",
+    "description": "Conheça o DINGBATCOBOGO"
+  },
+  "hero": {
+    "title": "Sobre Nós",
+    "subtitle": "A Dingbat é mais do que um site; somos uma comunidade dedicada a compartilhar conhecimento e técnicas sobre design gráfico, arquitetura e urbanismo. Com mais de 10 anos de experiência no mercado, nossa missão é educar e inspirar profissionais e entusiastas."
+  },
+  "content": "A Dingbat nasceu do desejo de Roberto e Stephany de criar um espaço onde o conhecimento sobre design e arquitetura pudesse ser compartilhado. Nossa equipe se dedica a proporcionar conteúdo de alta qualidade e acessível a todos que buscam aprimorar suas habilidades e conhecimentos.",
+  "mission": "Nossa missão é fornecer conteúdo relevante e técnico, promovendo o crescimento dos nossos leitores no vasto mercado de design e arquitetura.",
+  "image": "/images/sobre.jpg",
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Artigos"
+    },
+    {
+      "value": "100k+",
+      "label": "Leitores"
+    },
+    {
+      "value": "5",
+      "label": "Redatores"
+    }
+  ],
+  "team": []
+}

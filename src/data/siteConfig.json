@@ -1,0 +1,53 @@
+{
+  "name": "DINGBATCOBOGO",
+  "slug": "dingbatcobogo.com.br",
+  "description": "Olá! Nos somos a Dinbat, uma equipe do bem com o objetivo de ajudar as pessoas que buscam conhecimento e aprimoramento no nosso mercado de design gráfico, arquitetura e urbanismo. Trabalhamos na área há 10 anos e para nós é um prazer poder compartilhar conhecimento através da internet. Já estamos há 5 ano trabalhando bastante para o crescimento do nosso site e acredito muito que podemos ajudar você. Leitores dos níveis iniciantes ao avançado são muito bem vindos ao nosso espaço. Temos bastante conteúdo para todos. Aqui você vai encontrar diversos reviews e análises técnicas sobre diversos assunto dentro do mercado. Todas as análises são feitas por especialistas e dedicamos muito tempo nas na criação de nossos conteúdos antes de publicar. Sinta-se em casa! Roberto Elizer Co-fundador & Diretor de Criação Roberto é formado em arquitetura e urbanismo pela universidade federal do Rio de Janeiro. Trabalha com projetos de identidade visual e Branding há mais de quatro anos. Quando não está desenvolvendo projetos, está desenhando fontes ou fazendo um design gráfico. Junto de Stephany desde 2018, opera como Diretor de Criação, ao mesmo tempo comanda as criações do nosso site. Stephany Schmitt Co-fundadora & Diretora de Criação Por cinco anos, Stephany atuou como design gráfico. Há pouco mais de três anos atrás, uniu-se a Roberto para a criação da Dingbat, além de design e outros os projetos.",
+  "url": "https://dingbatcobogo.com.br",
+  "niche": "Casa e Decoração",
+  "keywords": "Ola Nos somos a Dinbat uma equipe do bem com o objetivo",
+  "email": "contato@dingbatcobogo.com.br",
+  "palette": "sunset",
+  "colors": {
+    "primary": "#f97316",
+    "accent": "#c2410c",
+    "dark": "#431407"
+  },
+  "headerContrast": "light",
+  "font": "montserrat",
+  "fontFamily": "'Montserrat', sans-serif",
+  "fontUrl": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap",
+  "components": {
+    "header": "Header-D",
+    "hero": "Hero-D",
+    "features": "Features-D",
+    "about": "About-D",
+    "posts": "Posts-D",
+    "footer": "Footer-E",
+    "sobre": "Sobre-H",
+    "contato": "Contato-F"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Sobre",
+      "href": "/sobre"
+    },
+    {
+      "label": "Contato",
+      "href": "/contato"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "twitter": "",
+    "youtube": ""
+  }
+}
